@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cupy_ivp"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "cupy",
+    "scipy"
+]
+[tool.setuptools]
+py-modules = ["cupy_ivp"]
